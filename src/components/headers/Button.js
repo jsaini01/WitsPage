@@ -1,11 +1,11 @@
 import React from "react";
-import { Btn } from "../../styles/HeaderStyle";
-import { SecBtn } from "../../styles/SecondPartStyle";
+import { Btn, LetsConnect } from "../../styles/HeaderStyle";
+import { SecBtn, RightButton, LeftButton } from "../../styles/SecondPartStyle";
 
 export const Button = () => {
   return (
     <Btn>
-      <button type="button">Let's Connect</button>
+      <LetsConnect type="button">Let's Connect</LetsConnect>
     </Btn>
   );
 };
@@ -13,12 +13,10 @@ export const Button = () => {
 export const SecButton = () => {
   return (
     <SecBtn>
-      <button type="button" className="first">
-        Tell Us About your Project
-      </button>
-      <button type="button" className="second">
+      <RightButton>Tell Us About your Project</RightButton>
+      <LeftButton>
         <i className="fa-solid fa-chevron-right"></i>
-      </button>
+      </LeftButton>
     </SecBtn>
   );
 };

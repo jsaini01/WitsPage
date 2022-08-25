@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Img } from "../../styles/HeaderStyle";
+import { Img, Wits } from "../../styles/HeaderStyle";
 const Logo = () => {
   return (
     <Img>
-      <img src="./images/witslogo.png" alt="logo" />
+      <Wits src="./images/witslogo.png" alt="logo" />
     </Img>
   );
 };

@@ -6,5 +6,4 @@ export const Div = styled.div`
   background-position: fixed;
   background-size: cover;
   padding: 2vw 0;
-  height: 100vh;
 `;

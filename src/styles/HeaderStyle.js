@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Img = styled.div`
   width: calc(100% - 80%);
+`;
 
-  img {
-    width: clamp(5rem, 11vw, 15rem);
-  }
+export const Wits = styled.img`
+  width: clamp(5rem, 11vw, 15rem);
 `;
 
 export const Div = styled.div`
@@ -19,13 +19,12 @@ export const Nav = styled.div`
   justify-content: center;
   align-items: center;
   column-gap: 2.5vw;
+`;
 
-  p {
-    cursor: pointer;
-    font-size: clamp(0.6rem, 1.3vw, 1.3rem);
-    font-weight: 600;
-  }
-
+export const DropDown = styled.p`
+  cursor: pointer;
+  font-size: clamp(0.5rem, 1.2vw, 1.3rem);
+  font-weight: 600;
   i {
     margin: 0 0.5vw;
 
@@ -38,12 +37,12 @@ export const Btn = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+`;
 
-  button {
-    background: #f9c51c;
-    padding: 0.8vw 1.2vw;
-    font-weight: 600;
-    font-size: clamp(0.5rem, 1vw, 1.3rem);
-    border: none;
-  }
+export const LetsConnect = styled.button`
+  background: #f9c51c;
+  padding: 0.8vw 1.2vw;
+  font-weight: 600;
+  font-size: clamp(0.5rem, 1.1vw, 1.3rem);
+  border: none;
 `;

@@ -2,6 +2,7 @@
 
 import Header from "./components/Header";
 import SecondPart from "./components/SecondPart";
+import Target from "./components/Target";
 import { Div } from "./styles/AppStyle";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <Div>
       <Header />
       <SecondPart />
+      <Target />
     </Div>
   );
 }

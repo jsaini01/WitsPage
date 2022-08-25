@@ -1,26 +1,20 @@
 import React from "react";
-import { Right } from "../../styles/SecondPartStyle";
+import { Right, Span, Heading, Pera } from "../../styles/SecondPartStyle";
 import { SecButton } from "../headers/Button";
 import Icons from "./Icons";
 
 const RightText = () => {
   return (
     <Right>
-      <h1>
-        We're not just IT.
-        <br /> We're a
-        <span>
-          Business
-          <br /> Transformation
-          <br /> Company.
-        </span>
-      </h1>
+      <Heading>
+        We're not just IT. We're a<Span>Business Transformation Company.</Span>
+      </Heading>
 
-      <p>
-        We are more than just a business. We're a community of
-        <br /> like-minded individuals who share our love for
-        <br /> connecting people with the best in their area.
-      </p>
+      <Pera>
+        We are more than just a business. We're a community of like-minded
+        individuals who share our love for connecting people with the best in
+        their area.
+      </Pera>
       <SecButton />
       <Icons />
     </Right>

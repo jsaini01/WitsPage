@@ -1,17 +1,17 @@
 import React from "react";
 
-import { Nav } from "../../styles/HeaderStyle";
+import { Nav, DropDown } from "../../styles/HeaderStyle";
 const Head = () => {
   return (
     <Nav>
-      <p>
+      <DropDown>
         About Us<i className="fa-solid fa-angle-down"></i>
-      </p>
-      <p>Industry</p>
-      <p>
+      </DropDown>
+      <DropDown>Industry</DropDown>
+      <DropDown>
         Services<i className="fa-solid fa-angle-down"></i>
-      </p>
-      <p>Career</p>
+      </DropDown>
+      <DropDown>Career</DropDown>
     </Nav>
   );
 };

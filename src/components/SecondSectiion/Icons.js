@@ -1,15 +1,15 @@
 import React from "react";
-import { Icon } from "../../styles/SecondPartStyle";
+import { Icon, FollowUS, Line } from "../../styles/SecondPartStyle";
 
 const Icons = () => {
   return (
     <Icon>
-      <p>Follow US</p>
-      <hr />
-      <i class="fa-brands fa-linkedin-in"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-square-youtube"></i>
+      <FollowUS>Follow US</FollowUS>
+      <Line></Line>
+      <i className="fa-brands fa-linkedin-in" />
+      <i className="fa-brands fa-facebook"></i>
+      <i className="fa-brands fa-twitter"></i>
+      <i className="fa-brands fa-youtube"></i>
     </Icon>
   );
 };
