@@ -5,7 +5,6 @@ import {
   LeftPera,
   LeftHeading,
   Div,
-  TransBorder,
 } from "../../styles/TargetStyle";
 
 const TransText = () => {
@@ -14,7 +13,6 @@ const TransText = () => {
       <Div>
         <LeftPera>Let us tell a story of</LeftPera>
         <LeftHeading>Our Numbers</LeftHeading>
-        <TransBorder />
       </Div>
     </LeftSideTrans>
   );

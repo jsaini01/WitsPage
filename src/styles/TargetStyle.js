@@ -4,7 +4,7 @@ export const Main = styled.div`
   display: flex;
   box-sizing: border-box;
 
-  margin: 0 4vw 0 0;
+  margin: 0 4vw 5vw 0;
 `;
 
 export const SideImg = styled.div`
@@ -23,28 +23,27 @@ export const LeftSideTrans = styled.div`
   height: clamp(5rem, 8vw, 12rem);
   width: calc(100% - 88%);
 
-  top: clamp(15rem, 25vw, 28rem);
+  top: clamp(15rem, 30vw, 28rem);
   transform: rotate(-90deg);
 `;
 
 export const Div = styled.div`
-  width: clamp(14.5rem, 19.8vw, 40rem);
-  border-bottom: 15px solid #f9c51c;
-  height: clamp(3.7rem, 5.5vw, 6rem);
+  width: clamp(11.5rem, 19.8vw, 40rem);
+
+  border-bottom: 1vw solid #f9c51c;
+  height: clamp(2.8rem, 5.3vw, 5.8rem);
 `;
 
 export const LeftPera = styled.p`
-  font-size: clamp(0.9rem, 1.3vw, 2rem);
+  font-size: clamp(0.7rem, 1.3vw, 2rem);
   line-height: 2vw;
   font-weight: 500;
   color: #828282;
 `;
 
 export const LeftHeading = styled.h1`
-  font-size: clamp(2.2rem, 3vw, 3.5rem);
+  font-size: clamp(1.7rem, 3vw, 3.5rem);
 `;
-
-export const TransBorder = styled.div``;
 
 // Last Content
 
@@ -54,6 +53,7 @@ export const TwoSection = styled.div`
   display: flex;
   width: calc(100% - 10%);
   flex-direction: column;
+  padding: 10vw 0 0 0;
 `;
 
 export const SmallHeading = styled.h4`
