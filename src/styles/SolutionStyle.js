@@ -7,6 +7,7 @@ export const Background = styled.div`
   row-gap: 5vw;
   flex-direction: column;
   align-items: center;
+  margin: 0 0 13vw 0;
 `;
 
 export const SolutionHeadings = styled.div`
