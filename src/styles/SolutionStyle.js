@@ -39,7 +39,7 @@ export const Table = styled.div`
 
 export const THead = styled.h1`
   color: white;
-  font-size: clamp(2rem, 2.7vw, 3rem);
+  font-size: clamp(1.5rem, 2.7vw, 3rem);
   line-height: 8vw;
 `;
 

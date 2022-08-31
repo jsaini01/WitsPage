@@ -10,11 +10,13 @@ import {
   Stars,
   Fillstart,
   About,
+  Comas,
 } from "../../styles/SlideStyle";
 
 const Profile = () => {
   return (
     <ProfileContent>
+      <Comas src="./images/comas.png" alt="comas" />
       <Info>
         <Circle src="./images/profile.png" alt="profile" />
         <Name>

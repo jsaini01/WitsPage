@@ -2,24 +2,22 @@ import styled from "styled-components";
 
 export const SlideSite = styled.div`
   display: flex;
-  border: solid black;
 `;
 
 export const SideImg = styled.div`
-  border: solid black;
-  width: calc(100% - 78%);
+  width: calc(100% - 77%);
   margin: 3vw 0 0 0;
 `;
 
 export const LeftImg = styled.img`
-  width: calc(100% - 5%);
+  width: calc(100% - 1%);
+  height: calc(100% - 3%);
 `;
 
 // content
 export const Header = styled.div`
-  margin: 0 0 0 3vw;
+  margin: 0 0 0 2.8vw;
   padding: 2vw 0 0 0;
-  border: solid black;
   width: calc(100% - 22%);
 `;
 
@@ -64,7 +62,6 @@ export const MainHeading = styled.h3`
   font-size: clamp(0.8rem, 1.4vw, 2rem);
   margin: 1.8vw 0 0;
   width: calc(100% - 10%);
-  padding: 0 0 0 1vw;
 `;
 
 export const SpanPera = styled.p`
@@ -81,10 +78,15 @@ export const SpanPera = styled.p`
 // profile
 export const ProfileContent = styled.div`
   background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: calc(100% - 44%);
   border-radius: 16px;
-  border: 1px solid #1d2e88;
-  margin: 4vw 0 0 1vw;
+  border: 2px solid rgba(29, 46, 136, 0.6);
+  margin: 5vw 0 0 0;
+  height: calc(100% - 52%);
+  position: relative;
 `;
 export const Info = styled.div`
   display: flex;
@@ -127,4 +129,11 @@ export const About = styled.p`
   width: clamp(13rem, 29vw, 40rem);
   line-height: 1.4vw;
   word-spacing: 0.1vw;
+`;
+
+export const Comas = styled.img`
+  position: absolute;
+  top: clamp(-2.5rem, -2.3vw, -1rem);
+  right: 0.5vw;
+  width: calc(100% - 77%);
 `;

@@ -1,7 +1,9 @@
 // import "./App.css";
 
 import Header from "./components/Header";
+import OurBlog from "./components/OurBlog";
 import OurClient from "./components/OurClient";
+import OurTeam from "./components/OurTeam";
 import SecondPart from "./components/SecondPart";
 import Slider from "./components/Slider";
 import SolutionsProb from "./components/SolutionsProb";
@@ -17,6 +19,8 @@ function App() {
       <SolutionsProb />
       <OurClient />
       <Slider />
+      <OurBlog />
+      <OurTeam />
     </Div>
   );
 }
