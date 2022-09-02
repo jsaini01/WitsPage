@@ -1,5 +1,4 @@
-// import "./App.css";
-
+import ContactUs from "./components/ContactUs";
 import Header from "./components/Header";
 import OurBlog from "./components/OurBlog";
 import OurClient from "./components/OurClient";
@@ -21,6 +20,7 @@ function App() {
       <Slider />
       <OurBlog />
       <OurTeam />
+      <ContactUs />
     </Div>
   );
 }
