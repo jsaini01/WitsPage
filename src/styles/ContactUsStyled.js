@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContanctUs = styled.div`
   padding: 2vw;
-  margin: 0 7.8vw;
+  margin: 15vw 7.8vw;
 `;
 
 export const AllHeading = styled.div``;

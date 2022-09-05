@@ -33,10 +33,10 @@ export const Span = styled.span`
 export const SecBtn = styled.div`
   display: flex;
   margin: 4vw 0;
+`;
 
-  i {
-    font-size: clamp(0.7rem, 1.1vw, 1.5rem);
-  }
+export const SecBtnArrow = styled.img`
+  width: clamp(0.4rem, 0.8vw, 1.5rem);
 `;
 
 export const RightButton = styled.button`
@@ -50,17 +50,18 @@ export const RightButton = styled.button`
 export const LeftButton = styled.button`
   background: #f9c51c;
   border: none;
-  padding: 0.9vw 0.5vw;
+  padding: 0.7vw 0.5vw;
   color: rgba(29, 46, 136, 1);
 `;
 
 export const Icon = styled.div`
   display: flex;
   align-items: center;
-  .fa-brands {
-    margin: 0.7vw;
-    font-size: clamp(1rem, 1.5vw, 2rem);
-  }
+`;
+
+export const Indeed = styled.img`
+  margin: 0.7vw;
+  width: clamp(0.8rem, 1.8vw, 2rem);
 `;
 
 export const FollowUS = styled.p`

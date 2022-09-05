@@ -1,7 +1,13 @@
 import React from "react";
 import { Send, Whatsapp, Whatsimg, Text } from "../../styles/ContactUsStyled";
+import { Submit } from "../../styles/FooterStyle";
 import { Btn, LetsConnect } from "../../styles/HeaderStyle";
-import { SecBtn, RightButton, LeftButton } from "../../styles/SecondPartStyle";
+import {
+  SecBtn,
+  RightButton,
+  LeftButton,
+  SecBtnArrow,
+} from "../../styles/SecondPartStyle";
 import { BigB } from "../../styles/SolutionStyle";
 
 export const Button = () => {
@@ -17,7 +23,7 @@ export const SecButton = () => {
     <SecBtn>
       <RightButton>Tell Us About your Project</RightButton>
       <LeftButton>
-        <i className="fa-solid fa-chevron-right"></i>
+        <SecBtnArrow src="./images/secBtnArrow.svg" alt="Arrow" />
       </LeftButton>
     </SecBtn>
   );
@@ -51,4 +57,8 @@ export const CandyBtn = () => {
       <Text>Calendly</Text>
     </Whatsapp>
   );
+};
+
+export const SubmitBtn = () => {
+  return <Submit>Subscribe</Submit>;
 };

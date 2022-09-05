@@ -1,15 +1,16 @@
 import React from "react";
 
-import { Nav, DropDown } from "../../styles/HeaderStyle";
+import { Nav, DropDown, ArrowIcon } from "../../styles/HeaderStyle";
 const Head = () => {
   return (
     <Nav>
       <DropDown>
-        About Us<i className="fa-solid fa-angle-down"></i>
+        About Us
+        <ArrowIcon src="./images/ArrowIcon.svg" alt="DownArrow" />
       </DropDown>
       <DropDown>Industry</DropDown>
       <DropDown>
-        Services<i className="fa-solid fa-angle-down"></i>
+        Services <ArrowIcon src="./images/ArrowIcon.svg" alt="DownArrow" />
       </DropDown>
       <DropDown>Career</DropDown>
     </Nav>

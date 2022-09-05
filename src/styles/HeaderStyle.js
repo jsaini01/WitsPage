@@ -25,11 +25,18 @@ export const DropDown = styled.p`
   cursor: pointer;
   font-size: clamp(0.5rem, 1.2vw, 1.3rem);
   font-weight: 600;
-  i {
-    margin: 0 0.5vw;
+  transition: 0.5s all ease-in-out;
+  border-bottom: 0px solid rgba(249, 197, 28, 0);
 
-    font-size: clamp(0.6rem, 1.2vw, 1.3rem);
+  &:hover {
+    border-bottom: 2px solid rgba(249, 197, 28, 1);
   }
+`;
+
+export const ArrowIcon = styled.img`
+  margin: 0 0.5vw;
+
+  width: clamp(0.6rem, 1vw, 1.3rem);
 `;
 
 export const Btn = styled.div`
@@ -44,5 +51,11 @@ export const LetsConnect = styled.button`
   padding: 0.8vw 1.2vw;
   font-weight: 600;
   font-size: clamp(0.5rem, 1.1vw, 1.3rem);
-  border: none;
+  border: 1px solid rgba(29, 29, 29, 0);
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    border: 1px solid rgba(29, 29, 29, 1);
+    font-size: clamp(0.5rem, 1.12vw, 1.3rem);
+  }
 `;
