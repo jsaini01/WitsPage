@@ -30,6 +30,7 @@ const Form = () => {
       <Input placeholder="Tell us about your project" />
       <Attachment>
         <Svg src="./images/icon.svg" alt="attachmenticon" />
+
         <AttachmentPera>Add Attachment</AttachmentPera>
         <Optional>(Optional)</Optional>
       </Attachment>

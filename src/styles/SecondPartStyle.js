@@ -30,11 +30,6 @@ export const Span = styled.span`
   color: rgba(249, 197, 28, 1);
 `;
 
-export const SecBtn = styled.div`
-  display: flex;
-  margin: 4vw 0;
-`;
-
 export const SecBtnArrow = styled.img`
   width: clamp(0.4rem, 0.8vw, 1.5rem);
 `;
@@ -42,16 +37,42 @@ export const SecBtnArrow = styled.img`
 export const RightButton = styled.button`
   background: #1d2e88;
   border: none;
-  padding: 1vw 1.1vw;
+  padding: 1.3vw 0;
   color: #ffffff;
-  font-size: clamp(0.6rem, 1vw, 1.5rem);
+  font-size: clamp(0.5rem, 1vw, 1.5rem);
+  width: 14vw;
+  position: absolute;
+  transition: 1s;
 `;
 
 export const LeftButton = styled.button`
   background: #f9c51c;
   border: none;
-  padding: 0.7vw 0.5vw;
+  padding: 1.22vw 0.5vw;
   color: rgba(29, 46, 136, 1);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 14vw;
+  z-index: -1;
+  transition: 1s;
+`;
+
+export const SecBtn = styled.div`
+  display: flex;
+  margin: 4vw 0 10vw 0;
+  width: 16vw;
+  position: relative;
+
+  &:hover {
+    ${RightButton} {
+      width: 16vw;
+    }
+    ${LeftButton} {
+      left: 12vw;
+      opacity: 0;
+    }
+  }
 `;
 
 export const Icon = styled.div`
@@ -62,6 +83,12 @@ export const Icon = styled.div`
 export const Indeed = styled.img`
   margin: 0.7vw;
   width: clamp(0.8rem, 1.8vw, 2rem);
+  transition: 0.1s all ease-in-out;
+
+  &:hover {
+    filter: invert(91%) sepia(59%) saturate(2127%) hue-rotate(334deg)
+      brightness(97%) contrast(100%);
+  }
 `;
 
 export const FollowUS = styled.p`

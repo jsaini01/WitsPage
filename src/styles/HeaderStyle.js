@@ -53,9 +53,14 @@ export const LetsConnect = styled.button`
   font-size: clamp(0.5rem, 1.1vw, 1.3rem);
   border: 1px solid rgba(29, 29, 29, 0);
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 
   &:hover {
     border: 1px solid rgba(29, 29, 29, 1);
-    font-size: clamp(0.5rem, 1.12vw, 1.3rem);
+  }
+
+  &:active {
+    background-color: black;
+    color: white;
   }
 `;
