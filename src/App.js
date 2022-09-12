@@ -1,12 +1,10 @@
-import AllFiles from "./AllFiles";
-
-import { Div } from "./styles/AppStyle";
+import Homepage from "pages/homepage/Index";
 
 function App() {
   return (
-    <Div>
-      <AllFiles />
-    </Div>
+    <>
+      <Homepage />
+    </>
   );
 }
 

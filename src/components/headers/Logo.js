@@ -1,12 +1,10 @@
 import React from "react";
+import WitsLogo from "assets/svg/logo";
 
-import { Img, Wits } from "../../styles/HeaderStyle";
-const Logo = () => {
-  return (
-    <Img>
-      <Wits src="./images/witslogo.png" alt="logo" />
-    </Img>
-  );
-};
+const Logo = () => (
+  <>
+    <WitsLogo />
+  </>
+);
 
 export default Logo;

@@ -8,7 +8,7 @@ import {
   BorderFotter,
   Peras,
   Spans,
-} from "../../styles/FooterStyle";
+} from "styles/components/Footer/index";
 
 const Bottom = () => {
   return (

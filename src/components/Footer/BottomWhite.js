@@ -6,7 +6,7 @@ import {
   Policy,
   TermCondition,
   WhiteDiv,
-} from "../../styles/FooterStyle";
+} from "styles/components/Footer/index";
 
 const BottomWhite = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, HeadingsContent } from "../../styles/FooterStyle";
+import { Heading, HeadingsContent } from "styles/components/Footer/index";
 
 const FooterHeading = () => {
   return (

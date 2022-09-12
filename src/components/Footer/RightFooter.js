@@ -12,8 +12,14 @@ import {
   InputBody,
   Mail,
   Inputmail,
-} from "../../styles/FooterStyle";
-import { SubmitBtn } from "../headers/Button";
+} from "styles/components/Footer/index";
+import { SubmitBtn } from "components/Buttons";
+
+import indeed from "assets/images/indeed.svg";
+import facebook from "assets/images/facebook.svg";
+import twiter from "assets/images/twiter.svg";
+import youtube from "assets/images/youtube.svg";
+import mail from "assets/images/mail.svg";
 
 const RightFooter = () => {
   return (
@@ -21,17 +27,17 @@ const RightFooter = () => {
       <FollowHeading>
         Follow Us
         <Icons>
-          <Indeed src="./images/indeed.svg" alt="indeed" />
-          <Facebook src="./images/facebook.svg" alt="facebook" />
-          <Twiter src="./images/twiter.svg" alt="twiter" />
-          <Youtube src="./images/youtube.svg" alt="youtube" />
+          <Indeed src={indeed} alt="indeed" />
+          <Facebook src={facebook} alt="facebook" />
+          <Twiter src={twiter} alt="twiter" />
+          <Youtube src={youtube} alt="youtube" />
         </Icons>
       </FollowHeading>
 
       <CenterHeading>Subscribe to Our Newsletter</CenterHeading>
 
       <InputBody>
-        <Mail src="./images/mail.svg" alt="mail" />
+        <Mail src={mail} alt="mail" />
         <Inputmail placeholder="Enter Your Email" type="email" />
         <SubmitBtn />
       </InputBody>
