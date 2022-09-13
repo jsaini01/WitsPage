@@ -15,24 +15,22 @@ import {
 import leftArrow from "assets/images/leftarrow.png";
 import rightarrow from "assets/images/rightarrow.png";
 
-const BlogContant = () => {
-  return (
-    <Wraper>
-      <Contant>Our Thoughts in</Contant>
-      <MainHeading>Our Blog</MainHeading>
-      <BorderWrap></BorderWrap>
+const BlogContant = () => (
+  <Wraper>
+    <Contant>Our Thoughts in</Contant>
+    <MainHeading>Our Blog</MainHeading>
+    <BorderWrap></BorderWrap>
 
-      <Container>
-        <ContainerContant>
-          We're here to make your thoughts on tech a little more… thought-ful.
-        </ContainerContant>
-        <IconImg>
-          <Lefticon src={leftArrow} alt="leftarrow" />
-          <Righticon src={rightarrow} alt="leftarrow" />
-        </IconImg>
-      </Container>
-    </Wraper>
-  );
-};
+    <Container>
+      <ContainerContant>
+        We're here to make your thoughts on tech a little more… thought-ful.
+      </ContainerContant>
+      <IconImg>
+        <Lefticon src={leftArrow} alt="leftarrow" />
+        <Righticon src={rightarrow} alt="leftarrow" />
+      </IconImg>
+    </Container>
+  </Wraper>
+);
 
 export default BlogContant;

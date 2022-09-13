@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import homepageimage from "assets/images/frame.png";
 
 export const MainWraper = styled.div`
-  background: url(./images/frame.png);
+  background: url(${homepageimage});
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;

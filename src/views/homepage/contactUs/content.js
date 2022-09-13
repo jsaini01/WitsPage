@@ -9,17 +9,15 @@ import {
 import maskGroup from "assets/images/mask-group.png";
 import ContactForm from "views/homepage/contactUs/contactForm";
 
-const Content = () => {
-  return (
-    <ContactWrap>
-      <BackImgWraper>
-        <Backimg src={maskGroup} alt="mask" />
-        <BackContent>Have a Project? We would love to help</BackContent>
-      </BackImgWraper>
+const Content = () => (
+  <ContactWrap>
+    <BackImgWraper>
+      <Backimg src={maskGroup} alt="mask" />
+      <BackContent>Have a Project? We would love to help</BackContent>
+    </BackImgWraper>
 
-      <ContactForm />
-    </ContactWrap>
-  );
-};
+    <ContactForm />
+  </ContactWrap>
+);
 
 export default Content;

@@ -4,14 +4,12 @@ import { Button } from "components/Buttons";
 import NavWrap from "components/Headers/navWrap";
 import Logo from "components/Headers/logo";
 
-const AllHeader = () => {
-  return (
-    <HeaderWraper>
-      <Logo />
-      <NavWrap />
-      <Button />
-    </HeaderWraper>
-  );
-};
+const AllHeader = () => (
+  <HeaderWraper>
+    <Logo />
+    <NavWrap />
+    <Button />
+  </HeaderWraper>
+);
 
 export default AllHeader;

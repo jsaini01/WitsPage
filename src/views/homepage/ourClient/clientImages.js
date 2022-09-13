@@ -26,25 +26,23 @@ import designwork from "assets/images/designwork.png";
 import moonverse from "assets/images/moonverse.png";
 import payu from "assets/images/payu.png";
 
-const ClintImages = () => {
-  return (
-    <ImageWraper>
-      <ImgContainer>
-        <HerbalLife src={nutrition} alt="nutri" />
-        <Trepp src={trepp} alt="nutri" />
-        <Farms src={farms} alt="nutri" />
-        <Affinidi src={affinidi} alt="nutri" />
-        <Bcg src={bcg} alt="nutri" />
-      </ImgContainer>
-      <ImageContainer>
-        <Earn src={earn} alt="nutri" />
-        <Hermes src={hermes} alt="nutri" />
-        <Designwork src={designwork} alt="nutri" />
-        <Moonverse src={moonverse} alt="nutri" />
-        <Payu src={payu} alt="nutri" />
-      </ImageContainer>
-    </ImageWraper>
-  );
-};
+const ClintImages = () => (
+  <ImageWraper>
+    <ImgContainer>
+      <HerbalLife src={nutrition} alt="nutri" />
+      <Trepp src={trepp} alt="nutri" />
+      <Farms src={farms} alt="nutri" />
+      <Affinidi src={affinidi} alt="nutri" />
+      <Bcg src={bcg} alt="nutri" />
+    </ImgContainer>
+    <ImageContainer>
+      <Earn src={earn} alt="nutri" />
+      <Hermes src={hermes} alt="nutri" />
+      <Designwork src={designwork} alt="nutri" />
+      <Moonverse src={moonverse} alt="nutri" />
+      <Payu src={payu} alt="nutri" />
+    </ImageContainer>
+  </ImageWraper>
+);
 
 export default ClintImages;

@@ -4,14 +4,12 @@ import Contant from "views/homepage/targetWrap/contant";
 import TargetBackImg from "views/homepage/targetWrap/targetBackImg";
 import OurNumbers from "views/homepage/targetWrap/ourNumbers";
 
-const TargetComponents = () => {
-  return (
-    <TargetContainer>
-      <TargetBackImg />
-      <OurNumbers />
-      <Contant />
-    </TargetContainer>
-  );
-};
+const TargetComponents = () => (
+  <TargetContainer>
+    <TargetBackImg />
+    <OurNumbers />
+    <Contant />
+  </TargetContainer>
+);
 
 export default TargetComponents;

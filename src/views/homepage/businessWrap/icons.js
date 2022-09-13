@@ -12,19 +12,17 @@ import SvgFacebook from "assets/svg/facebook";
 import Svgtwiter from "assets/svg/twiter";
 import Svgyoutube from "assets/svg/youtube";
 
-const Icons = () => {
-  return (
-    <IconWrap>
-      <FollowUS>Follow US</FollowUS>
-      <Line></Line>
-      <SvgWraper>
-        <Svgindeed />
-        <SvgFacebook />
-        <Svgtwiter />
-        <Svgyoutube />
-      </SvgWraper>
-    </IconWrap>
-  );
-};
+const Icons = () => (
+  <IconWrap>
+    <FollowUS>Follow US</FollowUS>
+    <Line></Line>
+    <SvgWraper>
+      <Svgindeed color="white" />
+      <SvgFacebook />
+      <Svgtwiter />
+      <Svgyoutube />
+    </SvgWraper>
+  </IconWrap>
+);
 
 export default Icons;
